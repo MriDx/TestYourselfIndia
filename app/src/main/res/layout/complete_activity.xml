@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0"
+        android:layout_margin="20dp"
+        app:cardCornerRadius="15dp"
+        >
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible"
+            >
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintVertical_bias="0"
+                >
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:text="Analysis Report"
+                    app:layout_constraintVertical_bias="0"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:layout_margin="20dp"
+                    android:id="@+id/analysisHeading"
+                    />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/analysisHeading"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:id="@+id/mainReport"
+                    app:layout_constraintVertical_bias="0"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:text="As per CDC Guideline you are not likely suspect of COVID-19"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/mainReport"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintVertical_bias="0"
+                    android:layout_margin="20dp"
+                    android:text="In-case your symptoms change please take self assessment again or contact healthcare facility near you"
+                    android:id="@+id/secondaryReport"
+                    android:textStyle="bold"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/secondaryReport"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:text="If you suspect a positive case, please inform nearest police station or heathase facility"
+                    android:gravity="center"
+                    app:layout_constraintVertical_bias="0"
+                    android:textSize="16sp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/mainSuggestion"
+                    />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/mainSuggestion"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:text="BE A HERO, STAY AT HOME"
+                    android:layout_margin="20dp"
+                    android:gravity="center"
+                    app:layout_constraintVertical_bias="0"
+                    android:textStyle="bold"
+                    android:textSize="22sp"
+                    android:id="@+id/secondarySuggestion"
+                    />
+
+                <androidx.appcompat.widget.AppCompatTextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/secondarySuggestion"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:text="This is not an official app"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="20dp"
+                    />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent"
+                android:id="@+id/resultProgress"
+                android:indeterminate="true"
+                android:visibility="gone"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

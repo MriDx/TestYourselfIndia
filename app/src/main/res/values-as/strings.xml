@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    //MainUI
+    //hints
+    <string name="name">সম্পূৰ্ণ নাম</string>
+    <string name="phone">ফোন নম্বৰ</string>
+    <string name="pin">পিন কোড</string>
+
+    //radio btn options
+    <string name="city">চহৰ</string>
+    <string name="town">নগৰ</string>
+    <string name="village">গাঁও</string>
+
+    <string name="english">English</string>
+    <string name="assamese">অসমীয়া</string>
+
+    <string name="q1">যোৱা ১৪ দিনৰ ভিতৰত আপোনি কোনো High-risk দেশ বা ৰাজ্য ত গৈছিল নেকি বা কোনো বেমাৰ হৈ থকা ব্যক্তিক লগ পাইছে নেকি যিয়ে কোনো High-Risk দেশ বা ৰাজ্য ত গৈছিল ?</string>
+    <string name="q2">যোৱা ১৪ দিনৰ ভিতৰত আপোনি কোনো COVID-19 Positive ব্যক্তিক লগ ধৰিছে নেকি ?</string>
+    <string name="q3">আপোনৰ জ্বৰ হৈ আছে নেকি ?</string>
+    <string name="q4">আপোনৰ কাহ হৈ আছে নেকি ?</string>
+    <string name="q5">উশাহ লোৱাত কস্ট হৈ পাই আছে নেকি ?</string>
+    <string name="q6">আপোনাৰ দৈৰ্ঘদিনীয়া বেমাৰ (Heart, Lung or Kidney Desease, Diabetes ) আৰু নাইবা Cancer, HIV, অন্যান্য শাৰিৰীক দুৰ্বলতা আদি বেমাৰ আছে নেকি ?</string>
+
+</resources>

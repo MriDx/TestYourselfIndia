@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="questions">
+        <item>যোৱা ১৪ দিনৰ ভিতৰত আপোনি কোনো High-risk দেশ বা ৰাজ্য ত গৈছিল নেকি বা কোনো বেমাৰ হৈ থকা ব্যক্তিক লগ পাইছে নেকি যিয়ে কোনো High-Risk দেশ বা ৰাজ্য ত গৈছিল ?</item>
+        <item>যোৱা ১৪ দিনৰ ভিতৰত আপোনি কোনো COVID-19 Positive ব্যক্তিক লগ ধৰিছে নেকি ?</item>
+        <item>আপোনৰ জ্বৰ হৈ আছে নেকি ?</item>
+        <item>আপোনৰ কাহ হৈ আছে নেকি ?</item>
+        <item>উশাহ লোৱাত কস্ট হৈ পাই আছে নেকি ?</item>
+        <item>আপোনাৰ দৈৰ্ঘদিনীয়া বেমাৰ (Heart, Lung or Kidney Desease, Diabetes ) আৰু নাইবা Cancer, HIV, অন্যান্য শাৰিৰীক দুৰ্বলতা আদি বেমাৰ আছে নেকি ?</item>
+    </string-array>
+</resources>

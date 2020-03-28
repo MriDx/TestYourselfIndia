@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">TestYourselfIndia</string>
+
+    <string name="appinfoText">Based on best CDC guidelines, illness severity and risk factors like age and pre-existing conditions</string>
+    <string name="appDeclarationText">This application does not provide medical advice</string>
+
+
+    //MainUI
+    //hints
+    <string name="name">Full Name</string>
+    <string name="phone">Phone Number</string>
+    <string name="pin">Pincode</string>
+
+    //radio btn options
+    <string name="city">City</string>
+    <string name="town">Town</string>
+    <string name="village">Village</string>
+
+    <string name="english">English</string>
+    <string name="assamese">Assamese</string>
+
+    <string name="q1">Have you travelled to a high-risk country/Indian state or been in contact with someone who is ill and has travelled to a high-risk country/Indian state in the last 14 days ?</string>
+    <string name="q2">Have you been in close contact with a laboratory confirmed COVID-19 patient within the past 14 days ?</string>
+    <string name="q3">Do you have fever ?</string>
+    <string name="q4">Do you have cough ?</string>
+    <string name="q5">Do you have shortness in breath ?</string>
+    <string name="q6">Do you have a Chronic Illness (Heart, Lung or Kidney Disease, Diabetes) or are immunocompromised (Cancer, HIV, Autoimmune Disease )</string>
+
+
+    //Terms &amp; conditions
+    <string name="htmlString">By clicking on Start Survey,  you are agreeing our <![CDATA[<a href="intent"> Privacy Policy</a>]]></string>
+    <string name="termsHeading">Terms and conditions for Chai Sahyog Mobile application</string>
+
+
+    <string name="privacyPolicy">
+        This is not an official app to trace COVID-19.
+        This app is only for spreading awareness and this does not suggest any medical precaution.
+        Build for educational purpose only.
+
+    </string>
+    <string name="privacyPolicy1">
+        This is not an official app to trace COVID-19.
+        This app is only for spreading awareness and this does not suggest any medical precaution.
+        Build for educational purpose only.
+
+        \nWe will save your personal information, like Name, phone no, pincode etc which you will fill on our app, only if you allow us to do and those data wont be shared with any of private firm or organisation or personal except government ask us to do.
+
+    </string>
+
+</resources>

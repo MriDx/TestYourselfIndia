@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="questions">
+        <item>Have you travelled to a high-risk country/Indian state or been in contact with someone who is ill and has travelled to a high-risk country/Indian state in the last 14 days ?</item>
+        <item>Have you been in close contact with a laboratory confirmed COVID-19 patient within the pas 14 days ?</item>
+        <item>Do you have fever ?</item>
+        <item>Do you have cough ?</item>
+        <item>Do you have shortness in breath ?</item>
+        <item>Do you have a Chronic Illness (Heart, Lung or Kidney Disease, Diabetes) or are immunocompromised (Cancer, HIV, Autoimmune Disease )</item>
+    </string-array>
+</resources>
