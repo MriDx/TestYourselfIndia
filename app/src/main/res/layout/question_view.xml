@@ -41,14 +41,14 @@
             <com.google.android.material.radiobutton.MaterialRadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Yes"
+                android:text="@string/ansYes"
                 android:textStyle="bold"
                 android:layout_margin="10dp"
                 />
             <com.google.android.material.radiobutton.MaterialRadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="No"
+                android:text="@string/ansNo"
                 android:textStyle="bold"
                 android:layout_margin="10dp"
                 />

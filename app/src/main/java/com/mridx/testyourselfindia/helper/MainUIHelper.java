@@ -31,7 +31,7 @@ public class MainUIHelper {
     private TextInputLayout textInputLayout;
     private RadioGroup radioGroup;
     private int language_code = 0;
-    private PatientDetails patientDetails;
+    public static PatientDetails patientDetails;
 
     public MainUIHelper(Context context) {
         this.context = context;

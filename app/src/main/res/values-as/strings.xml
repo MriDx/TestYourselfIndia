@@ -14,6 +14,9 @@
     <string name="english">English</string>
     <string name="assamese">অসমীয়া</string>
 
+    <string name="ansYes">Yes</string>
+    <string name="ansNo">No</string>
+
     <string name="q1">যোৱা ১৪ দিনৰ ভিতৰত আপোনি কোনো High-risk দেশ বা ৰাজ্য ত গৈছিল নেকি বা কোনো বেমাৰ হৈ থকা ব্যক্তিক লগ পাইছে নেকি যিয়ে কোনো High-Risk দেশ বা ৰাজ্য ত গৈছিল ?</string>
     <string name="q2">যোৱা ১৪ দিনৰ ভিতৰত আপোনি কোনো COVID-19 Positive ব্যক্তিক লগ ধৰিছে নেকি ?</string>
     <string name="q3">আপোনৰ জ্বৰ হৈ আছে নেকি ?</string>
@@ -21,4 +24,21 @@
     <string name="q5">উশাহ লোৱাত কস্ট হৈ পাই আছে নেকি ?</string>
     <string name="q6">আপোনাৰ দৈৰ্ঘদিনীয়া বেমাৰ (Heart, Lung or Kidney Desease, Diabetes ) আৰু নাইবা Cancer, HIV, অন্যান্য শাৰিৰীক দুৰ্বলতা আদি বেমাৰ আছে নেকি ?</string>
 
+
+    //upload
+    <string name="uploadMessage">আপোনাৰ পৰীক্ষনৰ তথ্যখিনি আমি ৰাখিব পাৰিম নেকি ? তথ্য খিনি কেবল Analytics আৰু শিক্ষামুলক কামতহে ব্যৱহাৰ কৰা হব</string>
+    <string name="yes">ৰাখক</string>
+    <string name="no">নালাগে</string>
+
+    
+    //report
+
+    <string name="positive">যিহেতু আপোনি যোৱা ১৪ দিনৰ ভিতৰত বহি ৰাজ্য বা দেশলৈ গৈছেলে বা বহি ৰাজ্য বা দেশলৈ যোৱা ব্যক্তিক লগ পাইছেলে আৰু  এতিয়া আপোনাৰ জ্বৰ-কাহ হৈ আছে, গতিকে আপোনৰ গাত COVID-19 থাকিবও পাৰে (নাথাকিব ও পাৰে) | অনুগ্ৰহ কৰি ডক্তৰৰ পৰামৰ্শ লওক</string>
+    <string name="natural">আপোনাৰ গাত COVID-19 লক্ষণ পোৱা নাই | ভয় নাখাব, চাফ-চিকুনকৈ থাকক</string>
+
+    <string name="secondaryReport">যদিহে আপোনাৰ ওপৰোক্ত লক্ষণ সমুহৰ সলনি হয় আকৌ এবাৰ চেষ্টা কৰি চাওক বা ডক্তৰৰ পৰামৰ্শ লওক</string>
+    <string name="mainSuggestion">যদি COVID-19 লক্ষণ থকা ব্যক্তি থকা গম পায়, অনতি পলমে প্ৰশাসন বা ওচৰৰ মেডিকেলত জনাঁওক</string>
+    <string name="secondarySuggestion">ঘৰতে থাকক, আৰু হিৰো হওক</string>
+    
+    
 </resources>

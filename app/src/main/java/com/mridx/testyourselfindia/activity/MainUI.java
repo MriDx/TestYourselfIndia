@@ -8,6 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
 
 import com.google.android.material.textfield.TextInputEditText;
+import com.google.firebase.analytics.FirebaseAnalytics;
 import com.mridx.testyourselfindia.R;
 import com.mridx.testyourselfindia.helper.MainUIHelper;
 
@@ -17,11 +18,15 @@ public class MainUI extends AppCompatActivity {
     public RadioGroup placeGroup, languageGroup;
     private MainUIHelper helper;
     public CardView proceedBtn;
+    private FirebaseAnalytics mFirebaseAnalytics;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_ui);
+
+        // Obtain the FirebaseAnalytics instance.
+        mFirebaseAnalytics = FirebaseAnalytics.getInstance(this);
 
         helper = new MainUIHelper(this);
         findViews();

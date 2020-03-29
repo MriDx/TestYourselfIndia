@@ -19,6 +19,9 @@
     <string name="english">English</string>
     <string name="assamese">Assamese</string>
 
+    <string name="ansYes">Yes</string>
+    <string name="ansNo">No</string>
+
     <string name="q1">Have you travelled to a high-risk country/Indian state or been in contact with someone who is ill and has travelled to a high-risk country/Indian state in the last 14 days ?</string>
     <string name="q2">Have you been in close contact with a laboratory confirmed COVID-19 patient within the past 14 days ?</string>
     <string name="q3">Do you have fever ?</string>
@@ -46,5 +49,21 @@
         \nWe will save your personal information, like Name, phone no, pincode etc which you will fill on our app, only if you allow us to do and those data wont be shared with any of private firm or organisation or personal except government ask us to do.
 
     </string>
+
+    //upload
+    <string name="uploadMessage">Can we save your test result at our end for analytics and educational purpose ?</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
+
+
+    //reports
+    <string name="positive">যিহেতু আপোনি যোৱা ১৪ দিনৰ ভিতৰত বহি ৰাজ্য বা দেশলৈ গৈছেলে বা বহি ৰাজ্য বা দেশলৈ যোৱা ব্যক্তিক লগ পাইছেলে আৰু  এতিয়া আপোনাৰ জ্বৰ-কাহ হৈ আছে, গতিকে আপোনৰ গাত COVID-19 থাকিবও পাৰে (নাথাকিব ও পাৰে) | অনুগ্ৰহ কৰি ডক্তৰৰ পৰামৰ্শ লওক</string>
+    <string name="natural">আপোনাৰ গাত COVID-19 লক্ষণ পোৱা নাই | ভয় নাখাব, চাফ-চিকুনকৈ থাকক</string>
+
+    <string name="secondaryReport">In-case your symptoms change please take self assessment again or contact healthcare facility near you</string>
+    <string name="mainSuggestion">If you suspect a positive case, please inform nearest police station or heathase facility</string>
+    <string name="secondarySuggestion">BE A HERO, STAY AT HOME</string>
+
+
 
 </resources>
